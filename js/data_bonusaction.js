@@ -1,34 +1,42 @@
 data_bonusaction = [
     {
-        title: "Offhand Attack",
-        icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
-        reference: "PHB, pgs. 192,194-195.",
-        bullets: [
-            "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
-            "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
-            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
-            "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
-        ]
-    },
-    {
-        title: "Cast a spell",
+        title: "Cast Spell",
         icon: "magic-swirl",
         subtitle: "Cast time of 1 bonus action",
         description: "Cast a spell with a casting time of 1 bonus action",
-        reference: "PHB, pg. 192.",
+        reference: "<a href='https://www.dndbeyond.com/sources/dnd/br-2024/spells#CastingTime'>Spells: Casting, PHB 236</a>",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "On a turn, you can expend only one spell slot to cast a spell."
         ]
     },
     {
-        title: "Use class feature",
-        icon: "embrassed-energy",
+        title: "Drink Potion",
+        icon: "round-potion",
+        subtitle: "Drink vial of liquid",
+        description: "Drink the contents of a bottle",
+        reference: "See the item description for more information",
+        bullets: [
+            "As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself"
+        ]
+    },
+    {
+        title: "Off-Hand Attack",
+        icon: "plain-dagger",
+        subtitle: "Attack with your off-hand",
+        description: "Attack with a Light weapon in your off-hand",
+        reference: "<a href='https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Light'>Equipment: Light, PHB 213</a>",
+        bullets: [
+            "Only usable if you take the <i>Attack</i> Action and attack with a Light weapon that you're holding in one hand.",
+            "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
+            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative."
+        ]
+    },
+    {
+        title: "Use Character Feature",
+        icon: "embraced-energy",
         subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
-        reference: "See class page for more information.",
+        description: "Use a class feature, species trait, or feat that uses a Bonus Action",
+        reference: "See Class, Species, or Feat description for more information",
         bullets: [
 
         ]
