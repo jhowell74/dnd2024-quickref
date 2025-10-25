@@ -135,11 +135,11 @@
 }
 
 #section-bonus-action, #section-bonus-action .item-icon {
-    background-color: DimGray;
-    border-color: DimGray;
+    background-color: MidnightBlue;
+    border-color: MidnightBlue;
 }
 #section-bonus-action .text {
-    color: DimGray;
+    color: MidnightBlue;
 }
 
 #section-reaction, #section-reaction .item-icon {
@@ -151,11 +151,11 @@
 }
 
 #section-condition, #section-condition .item-icon {
-    background-color: DarkRed;
-    border-color: DarkRed;
+    background-color: Maroon;
+    border-color: Maroon;
 }
 #section-condition .text {
-    color: DarkRed;
+    color: Maroon;
 }
 
 #section-environment, #section-environment .item-icon {

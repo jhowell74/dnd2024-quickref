@@ -2,7 +2,7 @@ data_bonusaction = [
     {
         title: "Cast Spell",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 bonus action",
+        subtitle: "Casting Time: Bonus Action",
         description: "Cast a spell with a casting time of 1 bonus action",
         reference: "<a href='https://www.dndbeyond.com/sources/dnd/br-2024/spells#CastingTime'>Spells: Casting, PHB 236</a>",
         bullets: [
