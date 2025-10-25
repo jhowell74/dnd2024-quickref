@@ -1,36 +1,46 @@
 data_reaction = [
     {
-        title: "Opportunity attack",
-        icon: "crossed-swords",
-        subtitle: "Enemy leaves your reach",
-        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
-        reference: "PHB, pg. 195.",
+        title: "Cast Spell",
+        icon: "magic-swirl",
+        subtitle: "Casting Time: Reaction",
+        description: "Cast a spell with a casting time of 1 Reaction",
+        reference: "<a href='https://www.dndbeyond.com/sources/dnd/br-2024/spells#CastingTime'>Spells: Casting, PHB 236</a>",
         bullets: [
-            "Trigger: enemy creature you can see leaves your reach.",
-            "Make one melee attack against the provoking creature.",
-            "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
-            "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction."
+            "Trigger: Specified by the spell."
         ]
     },
     {
-        title: "Readied action",
+        title: "Opportunity Attack",
+        icon: "backstab",
+        subtitle: "Enemy leaves your reach",
+        description: "You deliver a parting blow as an enemy tries to escape",
+        reference: "<a href='https://www.dndbeyond.com/sources/dnd/br-2024/playing-the-game#OpportunityAttacks'>Playing the Game: Opportunity Attacks, PHB #</a>; "
+                   + "<a href='https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#OpportunityAttacks'>Opportunity Attacks, PHB 371</a>",
+        bullets: [
+            "Trigger: Enemy creature you can see leaves your reach.",
+            "Make one melee attack with a weapon or Unarmed Strike against the provoking creature.",
+            "The attack occurrs right before the creature leaves your reach.",
+            "Creatures don't provoke an opportunity attack when they use the Disengage action, when they teleport, "
+            + "or when someone or something moves them without using their movement, action, or reaction."
+        ]
+    },
+    {
+        title: "Readied Action",
         icon: "stopwatch",
         subtitle: "Part of your Ready action",
         description: "Execute the reaction specified by your Ready action",
-        reference: "PHB, pg. 193.",
+        reference: "<a href='https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ReadyAction'>Ready [Action], PHB 372</a>",
         bullets: [
-            "Trigger: specified by your <i>Ready</i> action."
+            "Trigger: specified by your Ready action."
         ]
     },
     {
-        title: "Cast a spell",
-        icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
-        reference: "PHB, pg. 192.",
+        title: "Use Character Feature",
+        icon: "embraced-energy",
+        subtitle: "Some features use Reactions",
+        description: "Use a class feature, species trait, or feat that uses a Reaction",
+        reference: "See Class, Species, or Feat description for more information",
         bullets: [
-            "Trigger: specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
         ]
-    }
+    },
 ]

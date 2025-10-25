@@ -119,51 +119,51 @@
 /* Colors */
 /* ------------------------------------------------------------------------- */
 #section-movement, #section-movement .item-icon {
-    background-color: maroon;
-    border-color: maroon;
+    background-color: DarkGreen;
+    border-color: DarkGreen;
 }
 #section-movement .text {
-    color: maroon;
+    color: DarkGreen;
 }
 
 #section-action, #section-action .item-icon {
-    background-color: black;
-    border-color: black;
+    background-color: Black;
+    border-color: Black;
 }
 #section-action .text {
-    color: black;
+    color: Black;
 }
 
 #section-bonus-action, #section-bonus-action .item-icon {
-    background-color: indigo;
-    border-color: indigo;
+    background-color: MidnightBlue;
+    border-color: MidnightBlue;
 }
 #section-bonus-action .text {
-    color: indigo;
+    color: MidnightBlue;
 }
 
 #section-reaction, #section-reaction .item-icon {
-    background-color: DarkOliveGreen ;
-    border-color: DarkOliveGreen ;
+    background-color: SteelBlue ;
+    border-color: SteelBlue ;
 }
 #section-reaction .text {
-    color: DarkOliveGreen ;
+    color: SteelBlue ;
 }
 
 #section-condition, #section-condition .item-icon {
-    background-color: FireBrick;
-    border-color: FireBrick;
+    background-color: Maroon;
+    border-color: Maroon;
 }
 #section-condition .text {
-    color: FireBrick;
+    color: Maroon;
 }
 
 #section-environment, #section-environment .item-icon {
-    background-color: ForestGreen;
-    border-color: ForestGreen;
+    background-color: DarkOliveGreen;
+    border-color: DarkOliveGreen;
 }
 #section-environment .text {
-    color: ForestGreen;
+    color: DarkOliveGreen;
 }
 
 
