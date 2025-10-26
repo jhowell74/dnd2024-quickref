@@ -41,7 +41,7 @@
     float: right;
 }
 
-.section-subtitle, #modal-reference {
+.section-subtitle {
     display: block;
     margin-bottom: 8px;
     font-size: inherit;
@@ -50,10 +50,13 @@
 
 #modal-reference {
     margin-top: 1em;
+    margin-bottom: 8px;
+    font-size: smaller;
+    font-style: italic;
 }
 
 .section-row {
-    font-size: inherit;
+    font-size: inh;
 }
 
 .section-row:before, .section-row:after{
@@ -123,47 +126,47 @@
     border-color: DarkGreen;
 }
 #section-movement .text {
-    color: DarkGreen;
+    color: Black;
 }
 
 #section-action, #section-action .item-icon {
-    background-color: Black;
-    border-color: Black;
+    background-color: Navy;
+    border-color: Navy;
 }
 #section-action .text {
     color: Black;
 }
 
 #section-bonus-action, #section-bonus-action .item-icon {
-    background-color: MidnightBlue;
-    border-color: MidnightBlue;
+    background-color: CornflowerBlue;
+    border-color: CornflowerBlue;
 }
 #section-bonus-action .text {
-    color: MidnightBlue;
+    color: Black;
 }
 
 #section-reaction, #section-reaction .item-icon {
-    background-color: SteelBlue ;
-    border-color: SteelBlue ;
+    background-color: MediumPurple ;
+    border-color: MediumPurple ;
 }
 #section-reaction .text {
-    color: SteelBlue ;
+    color: Black ;
 }
 
 #section-condition, #section-condition .item-icon {
-    background-color: Maroon;
-    border-color: Maroon;
+    background-color: DarkRed;
+    border-color: DarkRed;
 }
 #section-condition .text {
-    color: Maroon;
+    color: Black;
 }
 
 #section-environment, #section-environment .item-icon {
-    background-color: DarkOliveGreen;
-    border-color: DarkOliveGreen;
+    background-color: Black;
+    border-color: Black;
 }
 #section-environment .text {
-    color: DarkOliveGreen;
+    color: Black;
 }
 
 
